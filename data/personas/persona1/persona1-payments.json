@@ -1,0 +1,33 @@
+{
+  "id": "ch_3ALEXmSTRIPE20250915",
+  "object": "charge",
+  "amount": 520000,
+  "currency": "eur",
+  "created": 1757918400,
+  "customer": "cus_ALEX_WEB_001",
+  "description": "Stripe payout aggregation from website card payments (September 2025)",
+  "status": "succeeded",
+  "captured": true,
+  "paid": true,
+  "refunds": [
+    {
+      "id": "re_1ALEX0925_partial",
+      "amount": 20000,
+      "currency": "eur",
+      "status": "succeeded",
+      "created": 1758091200,
+      "charge": "ch_3ALEXmSTRIPE20250915"
+    }
+  ],
+  "billing_details": {
+    "name": "Alex Müller",
+    "email": "alex@mueller-web.dev",
+    "address": {
+      "city": "Berlin",
+      "country": "DE",
+      "line1": "Torstraße 110",
+      "postal_code": "10119"
+    },
+    "phone": "+49-30-12345678"
+  }
+}

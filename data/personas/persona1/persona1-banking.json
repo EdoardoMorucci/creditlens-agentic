@@ -1,0 +1,87 @@
+{
+  "accounts": [
+    {
+      "account_id": "n26_business_de",
+      "type": "current",
+      "institution": "N26 Bank",
+      "owner_name": "Alex Müller",
+      "balance": 6120.45,
+      "currency": "EUR"
+    }
+  ],
+  "transactions": [
+    {
+      "transaction_id": "tx_2025_09_01_stripe",
+      "account_id": "n26_business_de",
+      "amount": 5200.00,
+      "currency": "EUR",
+      "date": "2025-09-01T09:10:00Z",
+      "merchant": "Stripe Payout",
+      "category": "business_income",
+      "recurring": true,
+      "classification": "income",
+      "confidence_score": 0.99,
+      "tags": ["stripe", "website_sales"]
+    },
+    {
+      "transaction_id": "tx_2025_09_03_rent",
+      "account_id": "n26_business_de",
+      "amount": -900.00,
+      "currency": "EUR",
+      "date": "2025-09-03T08:00:00Z",
+      "merchant": "Office/Co-working",
+      "category": "housing",
+      "recurring": true,
+      "classification": "fixed",
+      "confidence_score": 0.99,
+      "tags": ["essential", "overhead"]
+    },
+    {
+      "transaction_id": "tx_2025_09_05_saas",
+      "account_id": "n26_business_de",
+      "amount": -120.00,
+      "currency": "EUR",
+      "date": "2025-09-05T12:30:00Z",
+      "merchant": "GitHub/Cloud SaaS",
+      "category": "software",
+      "recurring": true,
+      "classification": "operational",
+      "confidence_score": 0.98,
+      "tags": ["tools", "devops"]
+    },
+    {
+      "transaction_id": "tx_2025_09_12_invoice",
+      "account_id": "n26_business_de",
+      "amount": 1450.00,
+      "currency": "EUR",
+      "date": "2025-09-12T14:45:00Z",
+      "merchant": "QuickBooks Paid Invoice",
+      "category": "business_income",
+      "recurring": false,
+      "classification": "income",
+      "confidence_score": 0.98,
+      "tags": ["invoice", "projects"]
+    },
+    {
+      "transaction_id": "tx_2025_09_18_marketing",
+      "account_id": "n26_business_de",
+      "amount": -300.00,
+      "currency": "EUR",
+      "date": "2025-09-18T10:00:00Z",
+      "merchant": "Paid Ads",
+      "category": "marketing",
+      "recurring": false,
+      "classification": "discretionary",
+      "confidence_score": 0.95,
+      "tags": ["growth"]
+    }
+  ],
+  "aggregated_insights": {
+    "income_summary": { "monthly_total": 6650.00, "variance": 1800.00 },
+    "spending_summary": { "essential": 1020.00, "discretionary": 450.00 },
+    "overdraft_events": 0,
+    "disposable_income": 5180.00,
+    "risk_signals": ["variable income pattern with stable quarterly average"],
+    "account_score": 782
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "CustomerRef": { "value": "789", "name": "Berlin Tech Ventures GmbH" },
+  "Line": [
+    {
+      "Amount": 3200.0,
+      "DetailType": "SalesItemLineDetail",
+      "SalesItemLineDetail": {
+        "ItemRef": { "value": "2001", "name": "Monthly Retainer - Web Dev" },
+        "UnitPrice": 3200.0,
+        "Qty": 1
+      }
+    },
+    {
+      "Amount": 1450.0,
+      "DetailType": "SalesItemLineDetail",
+      "SalesItemLineDetail": {
+        "ItemRef": { "value": "2002", "name": "Frontend Feature Sprint" },
+        "UnitPrice": 1450.0,
+        "Qty": 1
+      }
+    },
+    {
+      "Amount": 850.0,
+      "DetailType": "SalesItemLineDetail",
+      "SalesItemLineDetail": {
+        "ItemRef": { "value": "2003", "name": "SEO Optimization Package" },
+        "UnitPrice": 850.0,
+        "Qty": 1
+      }
+    }
+  ],
+  "BillAddr": {
+    "Line1": "Torstraße 110",
+    "City": "Berlin",
+    "CountrySubDivisionCode": "BE",
+    "PostalCode": "10119"
+  },
+  "CurrencyRef": { "value": "EUR" }
+}

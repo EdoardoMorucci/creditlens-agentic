@@ -1,0 +1,33 @@
+{
+  "id": "upwork_ALEX_001",
+  "name": "Alex Müller",
+  "headline": "Web Developer — React, Next.js, Node.js",
+  "skills": ["React", "Next.js", "TypeScript", "Node.js", "APIs", "Stripe"],
+  "job_success_score": 98,
+  "average_rating": 4.95,
+  "top_rated": true,
+  "long_term_clients": 6,
+  "total_reviews": 54,
+  "feedback": [
+    {
+      "contract_id": "cALEX_23101",
+      "client": { "id": "client_582", "name": "Acme Ventures" },
+      "role": "freelancer",
+      "rating": 5,
+      "review": "High-quality React delivery on time; great communication.",
+      "end_date": "2025-08-28T16:00:00Z",
+      "public": true,
+      "skills": ["React", "APIs"]
+    },
+    {
+      "contract_id": "cALEX_23111",
+      "client": { "id": "client_774", "name": "Nordic SaaS Ltd" },
+      "role": "freelancer",
+      "rating": 4.9,
+      "review": "Excellent Next.js work with clean code and docs.",
+      "end_date": "2025-07-17T10:00:00Z",
+      "public": true,
+      "skills": ["Next.js", "TypeScript"]
+    }
+  ]
+}
